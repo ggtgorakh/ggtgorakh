@@ -1,32 +1,45 @@
+<!-- Banner -->
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1D9E75,100:0A66C2&height=200&section=header&text=Gorakh%20Tapdiya&fontSize=52&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Data%20Scientist%20%C2%B7%20GenAI%20%26%20LLM%20Engineer%20%C2%B7%20AI%20Agents&descAlignY=60&descSize=18" width="100%"/>
+</p>
+
 <h1 align="center">Hi, I'm Gorakh Tapdiya 👋</h1>
 
 <p align="center">
-  <b>Data Scientist · GenAI & LLM Engineer · AI Agents · Power BI · Cloud</b><br/>
+  <a href="https://github.com/ggtgorakh">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=1000&color=1D9E75&center=true&vCenter=true&width=700&lines=Data+Scientist+%7C+GenAI+%26+LLM+Engineer;Building+Multi-Agent+AI+Systems;Full-Stack+%7C+React+%7C+Flutter+%7C+Firebase;4th+Place+%E2%80%94+TCS+National+Hackathon" alt="Typing SVG" />
+  </a>
+</p>
+
+<p align="center">
+  <b>Data Scientist · GenAI & LLM Engineer · AI Agents · Full-Stack · Cloud</b><br/>
   B.Tech in Computer Science & Engineering · P R Pote Patil College of Engineering And Management, Amravati, India
 </p>
 
 <p align="center">
   <a href="https://www.linkedin.com/in/gorakh-tapdiya-3289a5290/">
-    <img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=flat&logo=linkedin&logoColor=white" />
+    <img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" />
   </a>
   <a href="https://github.com/ggtgorakh">
-    <img src="https://img.shields.io/badge/GitHub-%23121011.svg?style=flat&logo=github&logoColor=white" />
+    <img src="https://img.shields.io/badge/GitHub-%23121011.svg?style=for-the-badge&logo=github&logoColor=white" />
   </a>
   <a href="mailto:gorakhtapdiya765@gmail.com">
-    <img src="https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white" />
+    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
   </a>
-  <img src="https://komarev.com/ghpvc/?username=ggtgorakh&color=1D9E75&style=flat" />
+  <img src="https://komarev.com/ghpvc/?username=ggtgorakh&color=1D9E75&style=for-the-badge" />
 </p>
 
 ---
 
 ## 🏆 Highlights
 
-| 🥉 | **4th Place — TCS-Sponsored National Hackathon** (SSGMCE, Mar 2026) — GenAI Maintenance Scheduler |
+| | |
 |---|---|
+| 🥉 | **4th Place — TCS-Sponsored National Hackathon** (SSGMCE, Mar 2026) — GenAI Maintenance Scheduler |
 | 🤖 | **HackFusion 2026** — Autonomous Multi-Agent AI Pharmacy System (LangGraph + Groq + Gemini + Claude API) |
 | 💼 | **Freelance Data Scientist** — ML Models, LLM Apps, Power BI Dashboards & Cloud Pipelines |
 | 🧠 | **AI Agent Systems** — RAG Pipelines, Multi-Agent Orchestration, Prompt Engineering |
+| 📱 | **Full-Stack Builder** — React + TypeScript web apps, Flutter + Firebase mobile apps |
 | ☁️ | **Cloud Deployments** — AWS & Azure — production-grade ML & GenAI solutions |
 
 ---
@@ -35,6 +48,7 @@
 
 - 🔭 Currently building **AI Agent & LLM-powered applications** for real-world business problems
 - 🏗️ Developing AI-powered analytics dashboards combining **Python + Power BI + LLM insights**
+- 📱 Shipping full-stack products with **React, TypeScript, Flutter & Firebase**
 - 🚀 Deploying GenAI apps on **AWS & Azure** for live production use
 - 💬 Ask me about **LangChain · RAG · Multi-Agent AI · Machine Learning · Data Analytics · Power BI**
 - 💼 Open to **freelance projects** in Data Science, ML, GenAI Engineering & AI Product Development
@@ -45,21 +59,36 @@
 
 ## 🤖 Featured Projects
 
-### 🔧 GenAI Maintenance Scheduler *(4th Place — National)*
+### 🔧 [GenAI Maintenance Scheduler](https://github.com/ggtgorakh/GenAI-Maintenance-Scheduler) *(4th Place — National)*
 > TCS-Sponsored Hackathon, SSGMCE · Mar 2026
 
-Developed a Generative AI agent using Prompt Engineering and LLM reasoning pipelines to analyse equipment logs and generate prioritised maintenance schedules.
+A Generative AI agent that uses prompt engineering and LLM reasoning pipelines to analyse equipment logs and generate prioritised maintenance schedules.
 
-`LangChain` `Gemini API` `Groq API` `Python` `SQL` `Prompt Engineering` `FastAPI`
+`TypeScript` `LangChain` `Gemini API` `Groq API` `Python` `SQL` `FastAPI`
 
 ---
 
-### 💊 Autonomous Multi-Agent AI Pharmacy System
+### 💊 [PharmaCare AI](https://github.com/ggtgorakh/PharmacareAI) — Autonomous Multi-Agent Pharmacy System
 > HackFusion 2026 · Multi-Agent · LangGraph Orchestration
 
-Built a fully autonomous multi-agent pharmacy ecosystem using LangGraph orchestration, integrating multiple LLM APIs for intelligent agent decision-making and observability.
+An AI pharmacy assistant with separate **Admin** and **Patient** portals: answers medication queries, flags drug-interaction risk (🔴 high / 🟡 medium / 🟢 low), predicts refills and processes uploaded prescriptions.
 
-`LangChain` `LangGraph` `Groq API` `Gemini API` `Claude API` `FastAPI` `Python` `SQL`
+- Multi-agent orchestration with an **agent-traces observability dashboard** (Thought → Tool Call → Response)
+- Inventory management, AI refill alerts and a disease-analytics matrix for admins
+- Workflow automation via webhooks (Zapier / n8n), email and WhatsApp alerts
+
+`React` `TypeScript` `Tailwind CSS` `Vite` `shadcn/ui` `LangGraph` `Groq API` `Gemini API` `Claude API`
+
+---
+
+### 🛡️ [SpamShield](https://github.com/ggtgorakh/spamsheild)
+> ML-powered spam message detector with a web interface.
+
+- Text-classification model trained on a labelled spam dataset
+- Flask web app with a prediction history log
+- Deploy-ready (Procfile + pinned runtime)
+
+`Python` `Flask` `Scikit-learn` `NLP` `HTML`
 
 ---
 
@@ -85,6 +114,41 @@ Built a fully autonomous multi-agent pharmacy ecosystem using LangGraph orchestr
 
 ---
 
+### 🚌 Smart School Bus
+> Real-time school bus tracking & safety app with four user roles — also written up as a research paper.
+
+`Flutter` `Firebase` `Dart`
+
+---
+
+### 📝 RAG-Based Multimodal Question Generation
+> Generates exam-style questions from study material using retrieval-augmented generation, with automatic diagram creation.
+
+`Python` `RAG` `LLMs` `Multimodal AI`
+
+---
+
+## 📌 Live from GitHub
+
+<p align="center">
+  <a href="https://github.com/ggtgorakh/PharmacareAI">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=ggtgorakh&repo=PharmacareAI&theme=dark&hide_border=false" />
+  </a>
+  <a href="https://github.com/ggtgorakh/GenAI-Maintenance-Scheduler">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=ggtgorakh&repo=GenAI-Maintenance-Scheduler&theme=dark&hide_border=false" />
+  </a>
+</p>
+<p align="center">
+  <a href="https://github.com/ggtgorakh/spamsheild">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=ggtgorakh&repo=spamsheild&theme=dark&hide_border=false" />
+  </a>
+  <a href="https://github.com/ggtgorakh/smartreviewai">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=ggtgorakh&repo=smartreviewai&theme=dark&hide_border=false" />
+  </a>
+</p>
+
+---
+
 ## 💻 Tech Stack
 
 ### 🤖 GenAI & LLM Engineering
@@ -96,6 +160,16 @@ Built a fully autonomous multi-agent pharmacy ecosystem using LangGraph orchestr
 ![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=flat&logo=fastapi)
 
 **Concepts:** Multi-Agent Systems · LangGraph Orchestration · Prompt Engineering · RAG Pipelines · Chain-of-Thought Reasoning · LLM Observability · AI Agents
+
+### 🌐 Full-Stack & Mobile
+![React](https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat&logo=typescript&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat&logo=tailwind-css&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat&logo=vite&logoColor=white)
+![Flask](https://img.shields.io/badge/Flask-000000?style=flat&logo=flask&logoColor=white)
+![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat&logo=flutter&logoColor=white)
+![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat&logo=firebase&logoColor=black)
 
 ### 🧠 Machine Learning
 ![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=flat&logo=scikit-learn&logoColor=white)
@@ -129,7 +203,7 @@ Built a fully autonomous multi-agent pharmacy ecosystem using LangGraph orchestr
 | Event | Project | Result |
 |---|---|---|
 | TCS-Sponsored National Hackathon, SSGMCE | GenAI Maintenance Scheduler | 🥉 4th Place (National) |
-| HackFusion 2026 | Autonomous Multi-Agent AI Pharmacy System | Participant |
+| HackFusion 2026 | PharmaCare AI — Multi-Agent Pharmacy System | Participant |
 
 ---
 
@@ -176,7 +250,9 @@ Built a fully autonomous multi-agent pharmacy ecosystem using LangGraph orchestr
 
 ## 🤝 Let's Connect
 
-I'm always open to exciting freelance projects, collaborations, or just a chat about data and AI!
+<p align="center">
+  I'm always open to exciting freelance projects, collaborations, or just a chat about data and AI!
+</p>
 
 <p align="center">
   <a href="https://www.linkedin.com/in/gorakh-tapdiya-3289a5290/">
@@ -192,9 +268,11 @@ I'm always open to exciting freelance projects, collaborations, or just a chat a
   </a>
 </p>
 
----
-
 <p align="center">
   <i>"Data is not just numbers — it's the story of every decision waiting to be made."</i><br/>
   <b>— Gorakh Tapdiya</b>
+</p>
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0A66C2,100:1D9E75&height=100&section=footer" width="100%"/>
 </p>
